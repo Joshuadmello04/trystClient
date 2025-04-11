@@ -2,7 +2,8 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import SectionTitle from '../components/SectionTitle';
-
+import backgroundVideo from '@/assets/HeroVideo.mp4';
+import backgroundImage from '@/assets/images/hero-bg.jpg';
 const Offers = () => {
   const offers = [
     {
@@ -81,8 +82,8 @@ const Offers = () => {
       <HeroSection
         title="Special Offers"
         subtitle="Indulge in our carefully curated packages designed for your complete wellness"
-        backgroundImage="/public/HeroImage.jpg"
-        backgroundVideo="/public/HeroVideo.mp4"
+        backgroundImage={backgroundImage}
+        backgroundVideo={backgroundVideo}
         buttonText="BOOK NOW"
         buttonLink="https://wa.me/1234567890"
       />

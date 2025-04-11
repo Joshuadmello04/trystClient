@@ -6,37 +6,37 @@ const Work = () => {
   const workImages = [
     {
       id: 1,
-      image: '/images/service1.jpg',
+      image: '../assets/images/service1.jpg',
       instagramLink: 'https://instagram.com/p/example1',
       category: 'Hair Color'
     },
     {
       id: 2,
-      image: '/images/service2.jpg',
+      image: '../assets/images/service2.jpg',
       instagramLink: 'https://instagram.com/p/example2',
       category: 'Styling'
     },
     {
       id: 3,
-      image: '/images/service3.jpg',
+      image: '../assets/images/service3.jpg',
       instagramLink: 'https://instagram.com/p/example3',
       category: 'Haircut'
     },
     {
       id: 4,
-      image: '/images/service4.jpg',
+      image: '../assets/images/service4.jpg',
       instagramLink: 'https://instagram.com/p/example4',
       category: 'Color'
     },
     {
       id: 5,
-      image: '/images/service5.jpg',
+      image: '../assets/images/service5.jpg',
       instagramLink: 'https://instagram.com/p/example5',
       category: 'Styling'
     },
     {
       id: 6,
-      image: '/images/service6.jpg',
+      image: '../assets/images/service6.jpg',
       instagramLink: 'https://instagram.com/p/example6',
       category: 'Haircut'
     }

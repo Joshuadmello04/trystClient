@@ -4,6 +4,8 @@ import HeroSection from '../components/HeroSection';
 import SectionTitle from '../components/SectionTitle';
 import BlogPost, { BlogPostType } from '../components/BlogPost';
 import { Link } from 'react-router-dom';
+import backgroundVideo from '@/assets/HeroVideo.mp4';
+import backgroundImage from '@/assets/images/hero-bg.jpg';
 
 const Blog = () => {
   const [posts, setPosts] = useState<BlogPostType[]>([]);
@@ -24,8 +26,8 @@ const Blog = () => {
       <HeroSection
         title="Our Blog"
         subtitle="Discover beauty insights, trends, and stories from the Tryst family"
-        backgroundVideo='/HeroVideo.mp4'
-        backgroundImage='/images/hero-bg.jpg'
+        backgroundVideo={backgroundVideo}
+        backgroundImage={backgroundImage}
         buttonText={undefined}
         buttonLink={undefined}
       />

@@ -4,6 +4,16 @@ import SectionTitle from '../components/SectionTitle';
 import ServiceCard from '../components/ServiceCard';
 import TestimonialSection from '../components/TestimonialSection';
 import { Link } from 'react-router-dom';
+import salon1 from '@/assets/images/salon1.jpg';
+import salon2 from '@/assets/images/salon2.jpg';
+import salon3 from '@/assets/images/salon3.jpg';
+import salon4 from '@/assets/images/salon4.jpg';
+import service2 from '@/assets/images/service2.jpg';
+import service3 from '@/assets/images/service3.jpg';
+import heroBg from '@/assets/images/hero-bg.jpg';
+import heroImage from '@/assets/images/hero.jpeg';
+import heroVideo from '@/assets/HeroVideo.mp4';
+
 
 const Home = () => {
   const services = [
@@ -11,7 +21,7 @@ const Home = () => {
       id: 1,
       title: 'Hair',
       description: 'Cut. Colour. Cure. No matter the service, you will meet a new you, every time.',
-      image: '/images/salon1.jpg',
+      image: salon1,
       link: '/services/hair',
       reversed: false
     },
@@ -19,7 +29,7 @@ const Home = () => {
       id: 2,
       title: 'Skin',
       description: 'Clean-up or get an indulging facial, you deserve to be pampered. Over and over again.',
-      image: '/images/salon2.jpg',
+      image: salon2,
       link: '/services/skin',
       reversed: true
     },
@@ -27,7 +37,7 @@ const Home = () => {
       id: 3,
       title: 'Grooming',
       description: 'Become a regular. Make it a grooming ritual. Scrub, shave, trim, put on a good face and look like success. While having a good time.',
-      image: '/images/salon3.jpg',
+      image: salon3,
       link: '/services/grooming',
       reversed: false
     },
@@ -35,7 +45,7 @@ const Home = () => {
       id: 4,
       title: 'Spa',
       description: 'Not for special occasions alone. Treat yourself to one, on good days, bad days, and special ones.',
-      image: '/images/salon4.jpg',
+      image: salon4,
       link: '/services/spa',
       reversed: true
     }
@@ -46,8 +56,8 @@ const Home = () => {
       <HeroSection
         title="What you wear starts with your hair"
         subtitle="Walk in for more than a cut, curl or cure. We have got you covered, head to toe."
-        backgroundImage="/images/hero.jpg"
-        backgroundVideo="/public/HeroVideo.mp4"
+        backgroundImage={heroImage}
+        backgroundVideo={heroVideo}
       />
 
       <section className="py-16 bg-champagne-pink/10">
@@ -144,7 +154,7 @@ const Home = () => {
               <div className="col-span-2 row-span-2 overflow-hidden rounded-lg shadow-lg md:col-span-1 group">
                 <div className="relative overflow-hidden">
                   <img 
-                    src="/images/service2.jpg" 
+                    src="../assets/images/service2.jpg" 
                     alt="Our work" 
                     className="object-cover w-full h-full transition-all duration-500 transform grayscale group-hover:grayscale-0 group-hover:scale-110"
                   />
@@ -154,7 +164,7 @@ const Home = () => {
               <div className="overflow-hidden rounded-lg shadow-lg group">
                 <div className="relative overflow-hidden">
                   <img 
-                    src="/images/service2.jpg" 
+                    src={service2} 
                     alt="Our work" 
                     className="object-cover w-full h-48 transition-all duration-500 transform grayscale group-hover:grayscale-0 group-hover:scale-110"
                   />
@@ -164,7 +174,7 @@ const Home = () => {
               <div className="overflow-hidden rounded-lg shadow-lg group">
                 <div className="relative overflow-hidden">
                   <img 
-                    src="/images/service3.jpg" 
+                    src={service3} 
                     alt="Our work" 
                     className="object-cover w-full h-48 transition-all duration-500 transform grayscale group-hover:grayscale-0 group-hover:scale-110"
                   />
@@ -192,7 +202,7 @@ const Home = () => {
               className="order-2 md:order-1"
             >
               <img
-                src="/images/hero-bg.jpg"
+                src={heroBg}
                 alt="Make a booking"
                 className="object-cover w-full rounded-lg shadow-lg h-80"
               />

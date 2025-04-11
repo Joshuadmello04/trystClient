@@ -2,6 +2,9 @@ import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import SectionTitle from '../components/SectionTitle';
 import { Link } from 'react-router-dom';
+import heroImage from '@/assets/images/hero.jpeg';
+import salon1Image from '@/assets/images/salon1.jpg';
+import heroVideo from '@/assets/HeroVideo.mp4';
 
 const About = () => {
   return (
@@ -9,8 +12,8 @@ const About = () => {
       <HeroSection
         title="Where Beauty Meets Care"
         subtitle="Step into our world — where style, sustainability, and self-love come together."
-        backgroundImage="/images/hero.jpg"
-        backgroundVideo='/HeroVideo.mp4'
+        backgroundImage={heroImage}
+        backgroundVideo={heroVideo}
         buttonText="EXPLORE OUR WORK"
         buttonLink="/work"
       />
@@ -50,7 +53,7 @@ const About = () => {
               className="relative"
             >
               <img
-                src="/images/salon1.jpg"
+                src={salon1Image}
                 alt="Tryst salon interior"
                 className="relative z-10 object-cover w-full transition-all duration-500 rounded-lg shadow-lg grayscale hover:grayscale-0"
               />

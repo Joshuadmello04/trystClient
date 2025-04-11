@@ -1,4 +1,5 @@
 import ServiceTemplate from './ServiceTemplate';
+import backgroundImage from '@/assets/images/spa.jpeg';
 
 const SpaPage = () => {
   const spaServices = [
@@ -38,7 +39,7 @@ const SpaPage = () => {
     <ServiceTemplate
       title="Spa Services"
       subtitle="Relax and rejuvenate with our luxurious spa treatments"
-      heroImage="/images/spa.jpeg"
+      heroImage={backgroundImage}
       services={spaServices}
     />
   );

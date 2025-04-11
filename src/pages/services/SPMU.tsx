@@ -1,4 +1,5 @@
 import ServiceTemplate from './ServiceTemplate';
+import backgroundImage from '@/assets/images/spmu.png';
 
 const SPMUPage = () => {
   const spmuServices = [
@@ -38,7 +39,7 @@ const SPMUPage = () => {
     <ServiceTemplate
       title="Semi-Permanent Makeup"
       subtitle="Enhance your natural beauty with our professional SPMU services"
-      heroImage="/images/spmu.jpeg"
+      heroImage={backgroundImage}
       services={spmuServices}
     />
   );

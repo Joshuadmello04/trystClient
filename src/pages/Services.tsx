@@ -2,6 +2,21 @@ import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import SectionTitle from '../components/SectionTitle';
 import ServicesGrid from '../components/ServicesGrid';
+import backgroundVideo from '@/assets/HeroVideo.mp4';
+import backgroundImage from '@/assets/images/hero-bg.jpg';
+import salon1 from '@/assets/images/salon1.jpg';
+import salon2 from '@/assets/images/salon2.jpg';
+import salon3 from '@/assets/images/salon3.jpg';
+import salon4 from '@/assets/images/salon4.jpg';
+import service1 from '@/assets/images/hair.jpeg';
+import service2 from '@/assets/images/skin.jpeg';
+import service3 from '@/assets/images/grooming.jpeg';
+import service4 from '@/assets/images/spa.jpeg';
+import service5 from '@/assets/images/nail.jpeg';
+import service6 from '@/assets/images/service2.jpg';
+import heroBg from '@/assets/images/hero-bg.jpg';
+import heroImage from '@/assets/images/hero.jpg';
+import heroVideo from '@/assets/HeroVideo.mp4';
 
 const Services = () => {
   const serviceCategories = [
@@ -9,42 +24,42 @@ const Services = () => {
       id: 1,
       title: 'Hair',
       description: 'From classic cuts to trendy styles, our expert stylists create looks that enhance your natural beauty.',
-      image: '/images/hair-service.jpeg',
+      image: service1,
       link: '/services/hair'
     },
     {
       id: 2,
       title: 'Skin',
       description: 'Revitalize your skin with our customized facials and advanced skincare treatments.',
-      image: '/images/skin-service.jpeg',
+      image: service2,
       link: '/services/skin'
     },
     {
       id: 3,
       title: 'Grooming',
       description: 'Professional grooming services to keep you looking sharp and well-maintained.',
-      image: '/images/grooming-service.jpeg',
+      image: service3,
       link: '/services/grooming'
     },
     {
       id: 4,
       title: 'Spa',
       description: 'Indulge in relaxing spa treatments that rejuvenate your body and mind.',
-      image: '/images/spa-service.jpeg',
+      image: service4,
       link: '/services/spa'
     },
     {
       id: 5,
       title: 'Nail',
       description: 'Express yourself with our creative nail art and professional manicure services.',
-      image: '/images/nail-service.jpeg',
+      image: service5,
       link: '/services/nail'
     },
     {
       id: 6,
       title: 'Semi Permanent Make Up',
       description: 'Enhance your natural features with long-lasting semi-permanent makeup solutions.',
-      image: '/images/makeup-service.jpeg',
+      image: service6,
       link: '/services/semi-permanent-makeup'
     }
   ];
@@ -54,7 +69,8 @@ const Services = () => {
       <HeroSection
         title="Updos to highlights"
         subtitle="More than a cut. More than a colour and curl. It is a lasting impression."
-        backgroundImage="/images/hair.jpeg"
+        backgroundImage={backgroundImage}
+        backgroundVideo={backgroundVideo}
         buttonText="BOOK NOW"
       />
 
@@ -139,7 +155,7 @@ const Services = () => {
               className="flex items-center"
             >
               <img
-                src="/images/service4.jpg"
+                src={service4}
                 alt="Salon service"
                 className="object-cover w-full h-auto transition-all duration-500 rounded-lg shadow-lg grayscale hover:grayscale-0"
               />

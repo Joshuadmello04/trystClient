@@ -1,5 +1,5 @@
 import ServiceTemplate from './ServiceTemplate';
-
+import backgroundImage from '@/assets/images/hero-bg.jpg';
 const GroomingPage = () => {
   const groomingServices = [
     {
@@ -38,7 +38,7 @@ const GroomingPage = () => {
     <ServiceTemplate
       title="Men's Grooming"
       subtitle="Professional grooming services tailored for the modern gentleman"
-      heroImage="/images/grooming.jpeg"
+      heroImage={backgroundImage}
       services={groomingServices}
     />
   );
