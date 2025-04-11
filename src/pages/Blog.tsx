@@ -26,7 +26,6 @@ const Blog = () => {
       <HeroSection
         title="Our Blog"
         subtitle="Discover beauty insights, trends, and stories from the Tryst family"
-        backgroundVideo={backgroundVideo}
         backgroundImage={backgroundImage}
         buttonText={undefined}
         buttonLink={undefined}

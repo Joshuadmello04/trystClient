@@ -83,7 +83,6 @@ const Offers = () => {
         title="Special Offers"
         subtitle="Indulge in our carefully curated packages designed for your complete wellness"
         backgroundImage={backgroundImage}
-        backgroundVideo={backgroundVideo}
         buttonText="BOOK NOW"
         buttonLink="https://wa.me/1234567890"
       />

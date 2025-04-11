@@ -13,9 +13,9 @@ import service2 from '@/assets/images/skin.jpeg';
 import service3 from '@/assets/images/grooming.jpeg';
 import service4 from '@/assets/images/spa.jpeg';
 import service5 from '@/assets/images/nail.jpeg';
-import service6 from '@/assets/images/service2.jpg';
+import service6 from '@/assets/images/spmu.png';
 import heroBg from '@/assets/images/hero-bg.jpg';
-import heroImage from '@/assets/images/hero.jpg';
+import heroImage from '@/assets/images/hero1.png';
 import heroVideo from '@/assets/HeroVideo.mp4';
 
 const Services = () => {
