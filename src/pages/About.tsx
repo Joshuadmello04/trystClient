@@ -4,7 +4,7 @@ import SectionTitle from '../components/SectionTitle';
 import { Link } from 'react-router-dom';
 import heroImage from '@/assets/images/hero1.png';
 import salon1Image from '@/assets/images/salon1.jpg';
-import heroVideo from '@/assets/HeroVideo.mp4';
+import heroVideo from '@/assets/HeroVideo-recompressed.mp4';
 
 const About = () => {
   return (

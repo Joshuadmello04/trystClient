@@ -4,7 +4,7 @@ import HeroSection from '../components/HeroSection';
 import SectionTitle from '../components/SectionTitle';
 import BlogPost, { BlogPostType } from '../components/BlogPost';
 import { Link } from 'react-router-dom';
-import backgroundVideo from '@/assets/HeroVideo.mp4';
+import backgroundVideo from '@/assets/HeroVideo-recompressed.mp4';
 import backgroundImage from '@/assets/images/hero-bg.jpg';
 
 const Blog = () => {

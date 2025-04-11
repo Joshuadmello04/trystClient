@@ -12,7 +12,7 @@ import service2 from '@/assets/images/service4.jpg';
 import service3 from '@/assets/images/service3.jpg';
 import heroBg from '@/assets/images/hero-bg.jpg';
 import heroImage from '@/assets/images/hero1.png';
-import heroVideo from '@/assets/HeroVideo.mp4';
+import heroVideo from '@/assets/HeroVideo-recompressed.mp4';
 
 
 const Home = () => {

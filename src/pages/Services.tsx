@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import SectionTitle from '../components/SectionTitle';
 import ServicesGrid from '../components/ServicesGrid';
-import backgroundVideo from '@/assets/HeroVideo.mp4';
+import backgroundVideo from '@/assets/HeroVideo-recompressed.mp4';
 import backgroundImage from '@/assets/images/hero-bg.jpg';
 import salon1 from '@/assets/images/salon1.jpg';
 import salon2 from '@/assets/images/salon2.jpg';
@@ -16,7 +16,7 @@ import service5 from '@/assets/images/nail.jpeg';
 import service6 from '@/assets/images/spmu.png';
 import heroBg from '@/assets/images/hero-bg.jpg';
 import heroImage from '@/assets/images/hero1.png';
-import heroVideo from '@/assets/HeroVideo.mp4';
+import heroVideo from '@/assets/HeroVideo-recompressed.mp4';
 
 const Services = () => {
   const serviceCategories = [

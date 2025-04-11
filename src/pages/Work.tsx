@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaInstagram } from 'react-icons/fa';
 import SectionTitle from '../components/SectionTitle';
-import backgroundVideo from '@/assets/HeroVideo.mp4';
+import backgroundVideo from '@/assets/HeroVideo-recompressed.mp4';
 import backgroundImage from '@/assets/images/hero-bg.jpg';
 import service1 from '@/assets/images/service1.jpg';
 import service2 from '@/assets/images/service2.jpg';
