@@ -1,42 +1,50 @@
 import { motion } from 'framer-motion';
 import { FaInstagram } from 'react-icons/fa';
 import SectionTitle from '../components/SectionTitle';
+import backgroundVideo from '@/assets/HeroVideo.mp4';
+import backgroundImage from '@/assets/images/hero-bg.jpg';
+import service1 from '@/assets/images/service1.jpg';
+import service2 from '@/assets/images/service2.jpg';
+import service3 from '@/assets/images/service3.jpg';
+import service4 from '@/assets/images/service4.jpg';
+import service5 from '@/assets/images/nail.jpeg';
+import service6 from '@/assets/images/spmu.png';
 
 const Work = () => {
   const workImages = [
     {
       id: 1,
-      image: '../assets/images/service1.jpg',
+      image: service1,
       instagramLink: 'https://instagram.com/p/example1',
       category: 'Hair Color'
     },
     {
       id: 2,
-      image: '../assets/images/service2.jpg',
+      image: service2,
       instagramLink: 'https://instagram.com/p/example2',
       category: 'Styling'
     },
     {
       id: 3,
-      image: '../assets/images/service3.jpg',
+      image: service3,
       instagramLink: 'https://instagram.com/p/example3',
       category: 'Haircut'
     },
     {
       id: 4,
-      image: '../assets/images/service4.jpg',
+      image: service4,
       instagramLink: 'https://instagram.com/p/example4',
       category: 'Color'
     },
     {
       id: 5,
-      image: '../assets/images/service5.jpg',
+      image: service5,
       instagramLink: 'https://instagram.com/p/example5',
       category: 'Styling'
     },
     {
       id: 6,
-      image: '../assets/images/service6.jpg',
+      image: service6,
       instagramLink: 'https://instagram.com/p/example6',
       category: 'Haircut'
     }

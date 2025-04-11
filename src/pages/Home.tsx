@@ -8,7 +8,7 @@ import salon1 from '@/assets/images/salon1.jpg';
 import salon2 from '@/assets/images/salon2.jpg';
 import salon3 from '@/assets/images/salon3.jpg';
 import salon4 from '@/assets/images/salon4.jpg';
-import service2 from '@/assets/images/service2.jpg';
+import service2 from '@/assets/images/service4.jpg';
 import service3 from '@/assets/images/service3.jpg';
 import heroBg from '@/assets/images/hero-bg.jpg';
 import heroImage from '@/assets/images/hero.jpeg';
@@ -154,7 +154,7 @@ const Home = () => {
               <div className="col-span-2 row-span-2 overflow-hidden rounded-lg shadow-lg md:col-span-1 group">
                 <div className="relative overflow-hidden">
                   <img 
-                    src="../assets/images/service2.jpg" 
+                    src={service2} 
                     alt="Our work" 
                     className="object-cover w-full h-full transition-all duration-500 transform grayscale group-hover:grayscale-0 group-hover:scale-110"
                   />
